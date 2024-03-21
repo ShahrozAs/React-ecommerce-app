@@ -1,0 +1,62 @@
+.selectDrop1{
+    width: 300px;
+    height: auto;
+    background: #fff;
+    position: absolute;
+    top: 120%;
+    left: -20px;
+    z-index: 100;
+    box-shadow:0 3px 6px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+.openSelect{
+    display: block;
+    padding: 10px 0px;
+}
+.openSelect .arrowdown{
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    font-size: 25px;
+}
+
+.searchField input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #bce3c9;
+    outline: none;
+    padding: 0px 15px;
+}
+
+.selectDrop1 .searchResults{
+width: 100%;
+margin: 0px;
+margin-top: 10px;
+padding: 10px 0px;
+max-height: 300px;
+overflow-y: scroll;
+
+}
+.selectDrop1 .searchResults li{
+width: 100%;
+list-style: none;
+font-size: 16px;
+padding: 10px;
+color: rgba(0, 0, 0, 0.7);
+}
+.selectDrop1 .searchResults li.active{
+background: #f1f1f1;
+}
+.selectDrop1 .searchResults li:hover{
+ background: #3bb77e ;
+ color: #fff;
+}
+
+.selectDrop1 .searchResults::-webkit-scrollbar{
+    width: 7px;
+}
+.selectDrop1 .searchResults::-webkit-scrollbar-thumb{
+background-color: #ccc !important;
+}
+
